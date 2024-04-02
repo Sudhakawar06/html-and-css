@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Surveyform</title>
+</head>
+<body>
+    <div class="form">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve this platform</p></div>
+    <div class="form1">
+        <form id="survey-form">
+           <div><label for="name" id="name-label">Name:</label></div>
+        <input type="text" id="name"  name="name" placeholder="Enter your name" required>
+        <div><br><label for="name" id="name-label">Email id:</label></div>
+        <input type="email" id="name"  name="name" placeholder="Enter your email" required>
+        <div><br><label for="name" id="name-label">Age(optional):</label></div>
+        <input type="number" id="name"  name="name" placeholder="Enter your age" required>
+        <br><br><fieldset> <legend>How many years of programming experience do you have?</legend>
+            <input type="checkbox" id="checkbox1" name="checkboxGroup" >
+            <label for="checkbox1">Less than 1 year</label>
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" >
+            <label for="checkbox2"> 1-3 years</label>
+            <input type="checkbox" id="checkbox3" name="checkboxGroup" >
+            <label for="checkbox3">More than 3 years</label>
+            </fieldset><br>
+            <fieldset>
+            <legend>Which of the following is not a programming language?</legend>
+            <input type="checkbox" id="checkbox1" name="checkboxGroup" >
+            <label for="checkbox1">JavaScript</label>
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" >
+            <label for="checkbox2">  Python</label>
+            <input type="checkbox" id="checkbox3" name="checkboxGroup" >
+            <label for="checkbox3">CSS</label>
+            </fieldset><br>
+        <div><label for="comments">Any comments or suggestions?</label></div>
+        <input type="text" placeholder="Enter your comment here..." id="comment"><br><br>
+        <button type="submit" class="button">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
