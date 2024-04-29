@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(13,26,45);
+font-family: sans-serif;
+}
+.card{
+
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    width: 300px;
+    height: 500px;
+    background-color:rgb(2,27,58);
+    box-shadow: 0px 10px 8px 10px rgba(0,0,0,0.5);
+    border-radius: 16px;
+    padding: 1rem;
+    color: white;
+}
+img{
+    width: 100%;
+border-radius: 1rem;
+}
+h2{
+    margin-top: 10px;
+}
+hr{
+    height: 0.5px;
+    background-color: grey;
+  border-color: grey;
+  
+}
+.avatar{
+    width:30px;
+    vertical-align: middle;
+   
+}
+.para{
+    font-family: cursive;
+}
+
+   
+   
+
+.next-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
